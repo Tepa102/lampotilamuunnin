@@ -1,0 +1,41 @@
+body {
+  background-color:rgb(244, 246, 247);
+  margin-left: 20px;
+}
+
+body p {
+  font-size: 1.2em;
+  color:rgb(0, 0, 0);
+  padding-bottom: 0;
+}
+
+#valikko {
+  background-color: #92e0f8;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+#muunnosInput {
+  width: 90%;
+  height: 20px;
+  }
+
+#tulos {
+  width: 90%;
+  height: 20px;
+}
+
+#muunnaButton {
+  height: 20px;
+  width: 100px;
+  padding: 0;
+  display: inline-flex; /* Käytetään inline-flexiä elementin sisällä */
+  align-items: center; /* Keskitetään sisältö pystysuunnassa */
+  justify-content: center; /* Keskitetään sisältö vaakasuunnassa */
+}
+
+#valinnat {
+  background-color: #92e0f8;
+  width: 90%;
+  padding:10px;
+}

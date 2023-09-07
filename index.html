@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+        <title>Lämpötilamuunnin</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
+    </head>
+    <body>
+        <h1>Lämpötilamuunnin</h1>
+        <div id="main">
+            <select id="valikko">
+                <option value="celsiusToFahrenheit">Celsius -> Fahrenheit</option>
+                <option value="fahrenheitToCelsius">Fahrenheit  -> Celsius</option>
+                <option value="kelvinToFahrenheit">Kelvin  -> Fahrenheit</option>
+                <option value="fahrenheitToKelvin">Fahrenheit  -> Kelvin</option>
+                <option value="kelvinToCelsius">Kelvin  -> Celsius</option>
+                <option value="celsiusToKelvin">Celsius  -> Kelvin</option>
+            </select>
+            
+            <p><b>Syötä lämpötila:</b></p>
+                <input type="text" placeholder="Lämpötila..." id="muunnosInput">
+                <button type="button" class="btn btn-outline-info" id="muunnaButton">Muunna</button><br><br>
+                <input type="text" placeholder="Muunnos...." id="tulos"><br><br>
+
+        </div>
+        <div id="valinnat">
+            <input type="radio" id="1desimaali" name="desimaalit" value="1desimaali">
+            <label for="1desimaali">1 desimaali</label><br>
+            
+            <input type="radio" id="2desimaali" name="desimaalit" value="2desimaali">
+            <label for="2desimaali">2 desimaalia</label><br>
+
+            <input type="radio" id="3desimaali" name="desimaalit" value="3desimaali">
+            <label for="3desimaali">3 desimaalia</label>
+        </div>
+            <script src="muunnin.js"></script>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    
+</html>
