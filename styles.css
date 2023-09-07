@@ -16,12 +16,12 @@ body p {
 }
 
 #muunnosInput {
-  width: 90%;
+  width: 250px;
   height: 20px;
   }
 
 #tulos {
-  width: 90%;
+  width: 250px;
   height: 20px;
 }
 
@@ -36,6 +36,6 @@ body p {
 
 #valinnat {
   background-color: #92e0f8;
-  width: 90%;
+  width: 250px;
   padding:10px;
 }
