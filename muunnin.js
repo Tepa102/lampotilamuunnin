@@ -34,10 +34,10 @@ muunnaButton.addEventListener('click', function () {
             const kelvin = arvo + 273.15;
             tulos.value = `${kelvin.toFixed(valittuDesimaali)}`;
         }
-        // Tarkistetaan, onko lämpötila pienempi kuin absoluuttinen nollapiste
-        if (arvo < -273.15) {
-            tulos.value += ' (Alle absoluuttisen nollapisteen)';
-        }
+    // Tarkistetaan, onko lämpötila pienempi kuin absoluuttinen nollapiste
+    if (tulos.value < -273.15) {
+        tulos.value += ' (Alle absoluuttisen nollapisteen)';
+    }
     } else {
         tulos.value = 'Virheellinen syöte. Syötä kelvollinen luku.';
     }
