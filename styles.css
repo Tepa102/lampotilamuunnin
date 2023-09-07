@@ -4,9 +4,10 @@ body {
 }
 
 body p {
+  margin: 5px 0;
   font-size: 1.2em;
   color:rgb(0, 0, 0);
-  padding-bottom: 0;
+
 }
 
 #valikko {
@@ -18,14 +19,16 @@ body p {
 #muunnosInput {
   width: 300px;
   height: 20px;
-  }
+}
 
 #tulos {
+  margin-top: 10px;
   width: 300px;
   height: 20px;
 }
 
 #muunnaButton {
+  margin-top: 5px;
   height: 20px;
   width: 100px;
   padding: 0;
